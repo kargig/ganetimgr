@@ -200,7 +200,6 @@ NODATA_IMAGE = 'static/nodata.gif'
 WHITELIST_IP_MAX_SUBNET_V4 = 26
 WHITELIST_IP_MAX_SUBNET_V6 = 64
 
-
 # Choose whether to support websockets console or not.
 WEBSOCK_VNC_ENABLED = True
 # This is meant to be used with twistednovncauthproxy
@@ -236,7 +235,7 @@ BRANDING = {
     "SHOW_ORGANIZATION_FORM": True,
     "TITLE": "ganetimgr",
     # RSS Feed for the login page
-    "FEED_URL": "http://lists.noc.grnet.gr/sympa/rss/latest_arc/vima-users?count=20&for=30",
+    "FEED_URL": "",
     # Analytics script path. See 'templates/includes/analytics.html.dist'
     "ANALYTICS_FILE_PATH": ""
 }
